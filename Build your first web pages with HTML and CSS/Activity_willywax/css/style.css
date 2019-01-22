@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    background-color: beige;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+li {
+    font-style: italic;
+}
+
+#note {
+    height: 40px;
+
+}
+
+a:hover {
+    color: #151814;
+    background-color: #DFFFD6;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+    font-size: 30px;
+    color: green; 
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        font-size: 20px;
+    }
+    
+}
