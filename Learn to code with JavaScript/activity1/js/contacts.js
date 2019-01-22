@@ -7,6 +7,7 @@ Activity: Contact manager
 console.log("Welcome to My Contacts Managers!");
 var choice = 0;
 
+//Array to store contacts 
 var contacts = [];
 do {
     console.log("1.List Contacts");
