@@ -8,8 +8,11 @@ Steps to Update Files
 2. If the respective folder doesn't exists create it and add the content followed by your username.
 3. Comment the code if any for ease of understanding. 
 
+Hey Andela2.0 Tanzania karibu tupige GitHub Skills hapa.
 Enjoy
 
 Code To Code ): 
+Hapa Kazi Tu.
+
 
 
