@@ -6,7 +6,7 @@ to be in Andela 2.0 Team in Tanzania for learning purposes.
 Steps to Update Files 
 1. Pull incase of updates to avoid conflicts 
 2. If the respective folder doesn't exists create it and add the content followed by your username.
-3. Share 
+3. Comment the code if any for ease of understanding. 
 
 Enjoy
 
