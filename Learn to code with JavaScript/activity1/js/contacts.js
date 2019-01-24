@@ -8,6 +8,21 @@ console.log("Welcome to My Contacts Managers!");
 var choice = 0;
 
 var contacts = [];
+
+//Adding Initial Contacts 
+var person1 = {
+    'firstName' : 'Jane',
+    'lastName' : 'Doe'
+}
+
+var person2 = {
+    'firstName' : 'John',
+    'lastName' : 'Smith'
+}
+
+contacts.push(person1);
+contacts.push(person2);
+
 do {
     console.log("1.List Contacts");
     console.log("2.Add a Contact");
@@ -15,7 +30,7 @@ do {
 
     console.log("4.Quit");
 
-    choice = prompt("Choose Option");
+    choice = prompt(" 1.List Contact\n 2.Add a Contact\n 3.Delete a Contact By Name\n 4.Quit");
 
     if (choice === "1") {
         getContacts();
@@ -71,7 +86,7 @@ function deleteContact(){
     }while(validateEntry(name));
 
     contacts.forEach((item,index,array)=>{
-        if(item.firstName === name.toLowerCase() || item.lastName === name.toLowerCase()){
+        if(item.firstName.toLowerCase() === name.toLowerCase() || item.lastName.toLowerCase() === name.toLowerCase()){
             contacts.splice(index,1);
             console.log("Contact deleted ");
         }
